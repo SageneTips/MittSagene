@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   } 
+/* The navbar container */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E6B182;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+    background-color: #A8DCDA;
+    color: black;
+}
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.active {
+  font-weight: 500;
+    background-color: #4CAF50;
+}
+
+
+.footer {
+  background-color: #E6B182;
+  text-align: center;
+    font-style: italic
+    display: block
+    font-size: 20px;
+    color: black;
+  padding: 24px 26px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+    
+}
+img {
+  max-width: 100%;
+  height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: #F0EDD5;
+}
+h1 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-style: italic
+    font-size: 150 px;
+}
+h2 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 100 px;
+    text-decoration: none;
+    text-align: center
+}
+p {
+    color:black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: middle;
+
+}
+p.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12 px;
+    color: white;
+    background: teal;
+}
+#copyright{
+    font-family: Arial;
+    font-size: 20 px;
+    color: blue;
+    background: red;
+}
+
+section{
+width: 100%;
+display: inline-block;
+padding-left: 10%;
+padding-right: 10%;
+    
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+#sideoversikt a:link, a:visited {
+  background-color: #A8DCDA;
+  color: black;
+  border: none;
+  padding: 15px 60px;
+    font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+#sideoversikt a:hover, a:active {
+  background-color: #E6B182;
+  color: black;
+}
+
