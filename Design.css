@@ -39,7 +39,7 @@ ul {
 }
 .active {
   font-weight: 500;
-    background-color: #4CAF50;
+    background-color: #A8DCDA;
 }
 
 
@@ -147,5 +147,13 @@ padding-right: 10%;
 #sideoversikt a:hover, a:active {
   background-color: #E6B182;
   color: black;
+    font-weight: 500;
 }
-
+div.kirke {
+  max-width: 500px;
+  margin: auto;
+background-color: #E6B182;
+}
+#footer {
+   background-color: #E6B182 
+}
