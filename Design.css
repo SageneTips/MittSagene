@@ -76,7 +76,14 @@ ul {
 }
 img {
     max-width: 100%;
-    height: auto;
+    max-height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+png {
+    max-width: 100%;
+    max-height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     vertical-align: top;
@@ -143,7 +150,14 @@ section{
     position: top;
     vertical-align: top;
 }
-
+#infografikk img{
+    max-width: 100%;
+    max-height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+   
+}
 #sideoversikt a:hover, a:active {
     background-color: #E6B182;
     color: black;
@@ -159,4 +173,9 @@ div.kirke {
 #footer {
     background-color: #E6B182;
     border-top: 10%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
