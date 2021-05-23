@@ -59,20 +59,6 @@ ul {
     padding-right: 30px;
     padding-top: 35px;
     padding-bottom: 50px;
-    margin: auto;
-    display: table-cell;
-}
-
-.col-container {
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-    height: auto;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 /* Clear floats after the columns */
@@ -93,6 +79,7 @@ img {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    vertical-align: top;
 }
 body {
     background-color: #F0EDD5;
@@ -107,34 +94,23 @@ h2 {
     font-family: 'Calistoga', cursive;
     font-size: 30px;
     text-decoration: none;
-    text-align: center
+    text-align: center;
+    vertical-align: top;
 }
 h3 {
     color:black;
     padding-top: 25px;
     padding-bottom: 25px;
-    vertical-align: middle;
+    vertical-align: top;
     font-weight: 500;
 }
 p {
     color:black;
     padding-top: 25px;
     padding-bottom: 25px;
-    vertical-align: middle;
+    align-content: center;
+}
 
-}
-p.copyright {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12 px;
-    color: white;
-    background: teal;
-}
-#copyright{
-    font-family: Arial;
-    font-size: 20 px;
-    color: blue;
-    background: red;
-}
 section{
     width: 100%;
     display: inline-block;
@@ -153,12 +129,30 @@ section{
     font-family: 'Lato', sans-serif;
     text-align: center;
     text-decoration: none;
-    display: block;
+    display: block;  
 }
+#sideoversikt .p; {
+    min-height: inherit;
+}
+
+#infografikk {
+    color: black;
+    border: none;
+    padding: 15px 60px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    display: inline-block;  
+    text-align: left; 
+    position: top;
+    vertical-align: top;
+}
+
 #sideoversikt a:hover, a:active {
     background-color: #E6B182;
     color: black;
     font-weight: 500;
+    display: block;
+    text-align: center;
 }
 div.kirke {
     max-width: 500px;
@@ -166,5 +160,6 @@ div.kirke {
     background-color: #E6B182;
 }
 #footer {
-    background-color: #E6B182 
+    background-color: #E6B182;
+    border-top: 10%;
 }
