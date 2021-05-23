@@ -34,11 +34,6 @@ ul.topnav li.right {
 float: none;
 }
 }
-ul {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
 .active {
     font-weight: 500;
     background-color: #A8DCDA;
@@ -79,14 +74,6 @@ img {
     max-height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    vertical-align: top;
-}
-png {
-    max-width: 100%;
-    max-height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    vertical-align: top;
 }
 body {
     background-color: #F0EDD5;
@@ -115,7 +102,6 @@ p {
     color:black;
     padding-top: 25px;
     padding-bottom: 25px;
-    align-content: center;
 }
 
 section{
@@ -144,11 +130,7 @@ section{
     border: none;
     padding: 15px 60px;
     font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    display: inline-block;  
-    text-align: left; 
-    position: top;
-    vertical-align: top;
+    text-decoration: none; 
 }
 #infografikk img{
     max-width: 100%;
