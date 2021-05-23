@@ -131,9 +131,6 @@ section{
     text-decoration: none;
     display: block;  
 }
-#sideoversikt .p; {
-    min-height: inherit;
-}
 
 #infografikk {
     color: black;
